@@ -1,0 +1,26 @@
+{
+  "name": "simple-chart",
+  "private": true,
+  "version": "0.0.0",
+  "description": "simple d3 charts",
+  "main": "index.js",
+  "repository": "reklatsmasters/d3-examples",
+  "author": "Dmitry Tsvettsikh <me@reklatsmasters.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-plugin-transform-es2015-modules-umd": "^6.24.1",
+    "babel-plugin-transform-es2015-parameters": "^6.24.1",
+    "babel-preset-babili": "^0.0.12",
+    "babili-webpack-plugin": "^0.0.11",
+    "webpack": "1"
+  },
+  "dependencies": {
+    "d3-array": "^1.2.0",
+    "d3-axis": "^1.0.6",
+    "d3-scale": "^1.0.5",
+    "d3-selection": "^1.0.5",
+    "d3-shape": "^1.0.6"
+  }
+}
