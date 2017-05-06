@@ -1,0 +1,28 @@
+body {
+  /* reset default margin */
+  margin: 0;
+
+  /* 100% page height */
+  height: 100vh;
+
+  /* centering using css grid */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas: 
+    ". a .";
+}
+
+.chart-wrap {
+  /* centering css grid area */
+  grid-area: a;
+  align-self: center;
+  justify-self: center;
+  
+  border: 1px solid lightgrey;
+}
+
+.line {
+  fill: none;
+  stroke: #FF5722;
+  stroke-width: 1px;
+}
